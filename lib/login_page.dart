@@ -83,8 +83,8 @@ class _LoginPageState extends State<LoginPage> {
               style: ElevatedButton.styleFrom(
                 backgroundColor: const Color.fromRGBO(255, 63, 84, 1),
                 padding: const EdgeInsets.all(15),
-                shape: new RoundedRectangleBorder(
-                  borderRadius: new BorderRadius.circular(30.0),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(30.0),
                 ),
               ),
               child: const Text('Entrar'),
