@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "Dengue Locator",
       debugShowCheckedModeBanner: false,
-      home: CadastroPage(),
+      home: LoginPage(),
     );
   }
 }
