@@ -1,3 +1,4 @@
+import 'package:degue_locator/cadastro_page.dart';
 import 'package:degue_locator/login_page.dart';
 import 'package:flutter/material.dart';
 
@@ -12,8 +13,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: "Dengue Locator",
       debugShowCheckedModeBanner: false,
-      home: LoginPage(),
+      home: CadastroPage(),
     );
   }
 }
