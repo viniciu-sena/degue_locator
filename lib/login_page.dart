@@ -88,7 +88,9 @@ class _LoginPageState extends State<LoginPage> {
                 ),
               ),
               child: const Text('Entrar'),
-              onPressed: () {},
+              onPressed: () {
+                Navigator.pushNamed(context, '/mapa');
+              },
             ),
             const Padding(padding: EdgeInsets.all(8)),
             Container(
